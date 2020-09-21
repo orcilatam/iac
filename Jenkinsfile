@@ -21,7 +21,7 @@ pipeline {
     stage('Instalación de LoadBalacer e Ingress Controller') {
       steps {
         script {
-          installIngressController(this, kubeConfig, kubeNamespace, 'aquarella', 'ingress-nginx/ingress-nginx')
+          installNginxIngressController(this, kubeConfig, kubeNamespace, 'aquarella')
         }
       }
     }
