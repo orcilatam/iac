@@ -12,7 +12,7 @@ pipeline {
     stage('Construcción de cluster') {
       steps {
         script {
-          standUpInfrastructure(script, registry) {
+          standUpInfrastructure(script, registry)
         }
       }
     }
