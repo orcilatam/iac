@@ -1,5 +1,5 @@
 # Infrastructure as Code
 
-Ejemplo de construcción de infraestructura con Terraform.
+Ejemplo de construcción de infraestructura como código con Terraform.
 
 Ejecute el pipeline.
