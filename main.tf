@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "skynet" {
   name    = "skynet"
   region  = "nyc3"
-  version = "1.18.10-do.2"
+  version = "1.19.3-do.3"
   tags    = ["DEV"]
 
   node_pool {
